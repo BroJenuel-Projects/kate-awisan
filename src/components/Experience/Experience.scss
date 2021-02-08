@@ -1,0 +1,37 @@
+.my-experince {
+    .experiences {
+        .exp-item {
+            margin: 0 0 20px 0;
+            cursor: pointer;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0);
+            transform: translateY(0px);
+            transition: 0.3s;
+
+            &:hover {
+                box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+                transform: translateY(-7px);
+            }
+
+            h3 {
+                margin: 0;
+                .exp-company {
+                    color: var(--highlight);
+                }
+            }
+
+            h5 {
+                margin: 0;
+                opacity: 0.8;
+                font-weight: normal;
+            }
+
+            p {
+                font-size: 0.8rem;
+                margin: 5px 0;
+            }
+        }
+    }
+}
