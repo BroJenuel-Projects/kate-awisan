@@ -3,7 +3,7 @@ import App from './App.vue'
 import './assets/main.scss'
 import router from './router'
 import VuePageTransition from 'vue-page-transition'
- 
+
 Vue.use(VuePageTransition)
 Vue.config.productionTip = false
 

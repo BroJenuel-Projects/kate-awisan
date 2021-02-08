@@ -61,6 +61,13 @@
                             width: 100%;
                         }
                     }
+                    &.router-link-exact-active {
+                        color: var(--highlight);
+                        &::after {
+                            width: 100%;
+                            background-color: var(--highlight);
+                        }
+                    }
                 }
                 
             }

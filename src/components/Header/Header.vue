@@ -1,8 +1,7 @@
 <template>
     <div class="my-header">
         <div class="nav-title">
-            <i class='bx bx-envelope'></i>
-            <!-- <span>KateAwisan@gmail.com</span> -->
+            <router-link to="/"><i class='bx bxs-user-detail'></i></router-link>
         </div>
         <div class="nav-menu">
             <ul>
@@ -16,11 +15,9 @@
                 </li>
                 <li>
                     <router-link to="portfolio"><i class='bx bx-file' ></i> Portfolio</router-link>
-                    
                 </li>
                 <li>
-                    <a href="#"><i class='bx bx-phone-call' ></i> Contact Me</a>
-                    
+                    <router-link to="contact"><i class='bx bx-phone-call' ></i> Contact Me</router-link>
                 </li>
             </ul>
         </div>
