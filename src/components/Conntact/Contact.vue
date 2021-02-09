@@ -6,11 +6,11 @@
         </div>
         <p class="header-des">You can contact me through the social media below.</p>
         <ul>
-            <li @click="goToLink('https://www.facebook.com/kitztakit.calixtoawisan')"><i class='bx bxl-facebook-circle' ></i></li>
+            <li @click="goToLink('https://kateawisan@gmail.com', true)"><i class='bx bx-mail-send'></i></li>
             <li @click="goToLink('https://www.linkedin.com/in/kateawisan/')">
                 <i class='bx bxl-linkedin-square' ></i>
             </li>
-            <li @click="goToLink('https://www.instagram.com/kitztakit/')">
+            <li @click="goToLink('https://www.instagram.com/kateawisan/')">
                 <i class='bx bxl-instagram-alt' ></i>
             </li>
         </ul>
@@ -22,8 +22,8 @@
 <script>
 export default {
     methods: {
-        goToLink(link){
-            window.open(link,'_blank')
+        goToLink(link, mail=false){
+            window.open(mail ? "mailto:"+link:link)
         }
     }
 }
