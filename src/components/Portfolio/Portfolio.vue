@@ -20,10 +20,7 @@
             Portfolio
         </div>
         <p class="header-des">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-            fugiat, officiis suscipit quaerat eligendi libero, eveniet
-            consequuntur repellendus recusandae saepe tenetur laborum quo quam.
-            Debitis nam architecto harum earum assumenda!
+            I'm showing some of the things that I do in my past job/work.
         </p>
         <div class="item-container">
             <div v-for="port in ports" :key="port.title" class="item-box" @click="showModal = true; select = port">

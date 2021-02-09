@@ -1,10 +1,16 @@
 <template>
     <transition name="modal">
         <div class="modal-mask">
-            <div class="modal-wrapper">
+            <div class="modal-wrapper" >
                 <div class="modal-container">
                     <div class="modal-header">
                         <slot name="header"> default header </slot>
+                        <button
+                                class="modal-default-button"
+                                @click="$emit('close')"
+                            >
+                                OK
+                            </button>
                     </div>
 
                     <div class="modal-body">
@@ -13,12 +19,6 @@
 
                     <div class="modal-footer">
                         <slot name="footer">
-                            <button
-                                class="modal-default-button"
-                                @click="$emit('close')"
-                            >
-                                OK
-                            </button>
                         </slot>
                     </div>
                 </div>
@@ -61,7 +61,27 @@
     overflow-x: hidden;
     max-height: 80vh;
 }
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+    button {
+        padding: 10px 20px;
+        background-color: var(--highlight);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        transform: translateY(-10px);
+        cursor: pointer;
+
+        &:active {
+            background-color: white;
+            color: grey;
+        }
+    }
+}
 .modal-header h3 {
     margin-top: 0;
     color: var(--highlight);
@@ -73,6 +93,7 @@
 
 .modal-default-button {
     float: right;
+    
 }
 
 /*
@@ -85,18 +106,7 @@
  */
 .modal-footer {
   padding: 20px 0;
-  button {
-    padding: 10px 20px;
-    background-color: var(--highlight);
-    color: white;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    &:active {
-        background-color: white;
-        color: grey;
-    }
-  }
+  
 }
 .modal-enter {
     opacity: 0;
@@ -110,5 +120,12 @@
 .modal-leave-active .modal-container {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 490px ) {
+    .modal-container {
+        max-width: 280px;
+        max-height: 100vh;
+    }
 }
 </style>

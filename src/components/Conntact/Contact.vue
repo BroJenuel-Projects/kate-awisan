@@ -4,17 +4,14 @@
             <i class='bx bx-phone-incoming'></i>
             Contact Me
         </div>
-        <p class="header-des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero fugiat, officiis suscipit quaerat eligendi libero, eveniet consequuntur repellendus recusandae saepe tenetur laborum quo quam. Debitis nam architecto harum earum assumenda!</p>
+        <p class="header-des">You can contact me through the social media below.</p>
         <ul>
-            <li><i class='bx bxl-facebook-circle' ></i></li>
-            <li>
+            <li @click="goToLink('https://www.facebook.com/kitztakit.calixtoawisan')"><i class='bx bxl-facebook-circle' ></i></li>
+            <li @click="goToLink('https://www.linkedin.com/in/kateawisan/')">
                 <i class='bx bxl-linkedin-square' ></i>
             </li>
-            <li>
+            <li @click="goToLink('https://www.instagram.com/kitztakit/')">
                 <i class='bx bxl-instagram-alt' ></i>
-            </li>
-            <li>
-                <i class='bx bxl-twitter' ></i>
             </li>
         </ul>
         <button>
@@ -22,6 +19,15 @@
         </button>
     </div>
 </template>
+<script>
+export default {
+    methods: {
+        goToLink(link){
+            window.open(link,'_blank')
+        }
+    }
+}
+</script>
 <style lang="scss">
     .contact-me {
         button {
@@ -52,10 +58,10 @@
                 opacity: 0.3;
                 transition: 0.3s;
                 cursor: pointer;
+                color: var(--highlight);
 
                 &:hover {
                     opacity: 1;
-                    color: var(--highlight);
                 }
             }
         }

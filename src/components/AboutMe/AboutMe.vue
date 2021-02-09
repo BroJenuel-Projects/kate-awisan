@@ -8,7 +8,7 @@
             <h1>Virtual Data Entry<br>and Customer Support</h1>
         </div>
         <p>Most experienced in Data Extractions,<br>Collections and Research. Email, Call and Chat Customer Service/ Support.</p>
-        <button>
+        <button @click="$router.push({name: 'Contact'})">
             <i class='bx bx-phone-incoming' ></i>
             Contact Me
         </button>

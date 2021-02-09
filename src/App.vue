@@ -25,4 +25,10 @@ export default {
     padding: 0 20px;
     padding-top: 120px;
   }
+
+  @media only screen and (max-width: 650px) {
+    main {
+      padding-top: 50px;
+    }
+  }
 </style>
