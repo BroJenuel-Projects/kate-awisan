@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f9b5c653801f5dba3462806a5339f947.js"
+  "/precache-manifest.dadebf9cd785d1b9c67ec0df54c4bf05.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "kate-awisan"});

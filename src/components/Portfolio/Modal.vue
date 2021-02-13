@@ -89,6 +89,9 @@
 
 .modal-body {
     margin: 20px 0;
+    img {
+        height: 300px;
+    }
 }
 
 .modal-default-button {
@@ -126,6 +129,12 @@
     .modal-container {
         max-width: 280px;
         max-height: 100vh;
+    }
+
+    .modal-body {
+        img {
+            height: 200px;
+        }
     }
 }
 </style>

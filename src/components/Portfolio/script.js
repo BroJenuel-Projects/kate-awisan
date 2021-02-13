@@ -11,8 +11,8 @@ import ProductLabelDesign from './../../assets/port/productLabelDesign.png'
 import RemoveImageBackground3 from './../../assets/port/imagebackgroundremove3.png'
 import RemoveImageBackground2 from './../../assets/port/imagebackgroundremove2.png'
 import RemoveImageBackground1 from './../../assets/port/imagebackgroundremove1.png'
-import Logo1 from './../../assets/port/logo1.png'
-import Logo2 from './../../assets/port/logo2.png'
+// import Logo1 from './../../assets/port/logo1.png'
+// import Logo2 from './../../assets/port/logo2.png'
 import Covidbc1 from './../../assets/port/covidbc1.png'
 import Covidbc2 from './../../assets/port/covidbc2.png'
 import Modal from './Modal.vue'
@@ -69,12 +69,12 @@ export default {
                     title: "Image Background Remove",
                     des: "This was some of my personal reference work for my portfolio and for clients reference."
                 },
-                {
-                    img: Logo1,
-                    images: [Logo1, Logo2],
-                    title: 'Application Logo',
-                    des: "Been designing simple logos for businesses, website and applications."
-                },
+                // {
+                //     img: Logo1,
+                //     images: [Logo1, Logo2],
+                //     title: 'Application Logo',
+                //     des: "Been designing simple logos for businesses, website and applications."
+                // },
                 {
                     img: Covidbc1,
                     images: [Covidbc2, Covidbc1],

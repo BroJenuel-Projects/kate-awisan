@@ -5,7 +5,7 @@
             <div slot="body">
                 <VueSlickCarousel v-bind="settings">
                     <div v-for="(image, i) in select.images" :key="i">
-                        <img :src="image" width="500px">
+                        <img :src="image">
                     </div>
                 </VueSlickCarousel>
                 <br>

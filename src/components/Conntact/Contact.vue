@@ -14,13 +14,13 @@
                 <i class='bx bxl-instagram-alt' ></i>
             </li>
         </ul>
-        <button>
-            Contact
-        </button>
+        <ContactForm />
     </div>
 </template>
 <script>
+import ContactForm from './Form'
 export default {
+    components: {ContactForm},
     methods: {
         goToLink(link, mail=false){
             window.open(mail ? "mailto:"+link:link)
@@ -30,22 +30,6 @@ export default {
 </script>
 <style lang="scss">
     .contact-me {
-        button {
-            border-radius: 20px;
-            border: none;
-            padding: 15px 40px;
-            background: var(--gradient);
-            color: #eee;
-            cursor: pointer;
-            user-select: none;
-            outline: none;
-            transition: 0.3s;
-            border: 2px solid #fff;
-
-            &:active {
-                background: var(--highlight);
-            }
-        }
 
         ul {
             list-style: none;

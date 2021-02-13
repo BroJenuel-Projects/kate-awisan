@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fb0a544b63550c86748",
-    "url": "/css/app.2f3c3001.css"
+    "revision": "63aad6438d0ad831265c",
+    "url": "/css/app.ea783071.css"
   },
   {
-    "revision": "bf034e8995195dac90b4",
+    "revision": "b5c8bf362b617cd213db",
     "url": "/css/chunk-vendors.73094c77.css"
   },
   {
@@ -60,14 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/kate.10a858d6.jpg"
   },
   {
-    "revision": "49bd503058082a6e808714791ff9b7fb",
-    "url": "/img/logo1.49bd5030.png"
-  },
-  {
-    "revision": "c3e1b3f440875765fc6f00b45b65bf7b",
-    "url": "/img/logo2.c3e1b3f4.png"
-  },
-  {
     "revision": "24ba6b7df7689dd21d4036c45bcd570d",
     "url": "/img/productLabelDesign.24ba6b7d.png"
   },
@@ -76,16 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/shopify_LLC.23bed9ce.png"
   },
   {
-    "revision": "3068ce0ffa2ce668a85f358c90e291f3",
+    "revision": "e287192d791f061cba78e8b75c13b8ce",
     "url": "/index.html"
   },
   {
-    "revision": "1fb0a544b63550c86748",
-    "url": "/js/app.6529bd45.js"
+    "revision": "63aad6438d0ad831265c",
+    "url": "/js/app.4ca67cd3.js"
   },
   {
-    "revision": "bf034e8995195dac90b4",
-    "url": "/js/chunk-vendors.4f3c4a2f.js"
+    "revision": "b5c8bf362b617cd213db",
+    "url": "/js/chunk-vendors.dc1ee2af.js"
   },
   {
     "revision": "bbe2b0862debfa98cb81801531d80762",
