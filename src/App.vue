@@ -6,15 +6,18 @@
         <router-view />
       </vue-page-transition>
     </main>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
+import Footer from './components/Footer/Footer'
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
@@ -22,8 +25,9 @@ export default {
   main {
     margin: 0 auto;
     max-width: 900px;
+    min-height: 80vh;
     padding: 0 20px;
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   @media only screen and (max-width: 650px) {

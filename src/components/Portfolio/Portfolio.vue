@@ -3,8 +3,8 @@
         <Modal v-if="showModal" @close="showModal = false">
             <h3 slot="header">{{select.title}}</h3>
             <div slot="body">
-                <VueSlickCarousel v-bind="settings">
-                    <div v-for="(image, i) in select.images" :key="i">
+                <VueSlickCarousel v-bind="settings" style="text-align: center;">
+                    <div v-for="(image, i) in select.images" :key="i" class="center0img">
                         <img :src="image">
                     </div>
                 </VueSlickCarousel>

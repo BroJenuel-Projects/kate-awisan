@@ -9,7 +9,7 @@
                                 class="modal-default-button"
                                 @click="$emit('close')"
                             >
-                                OK
+                                Close
                             </button>
                     </div>
 
@@ -49,7 +49,7 @@
 }
 
 .modal-container {
-    max-width: 400px;
+    max-width: 800px;
     margin: 0px auto;
     padding: 20px 30px;
     background-color: #fff;
@@ -75,6 +75,9 @@
         outline: none;
         transform: translateY(-10px);
         cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
 
         &:active {
             background-color: white;
@@ -90,7 +93,7 @@
 .modal-body {
     margin: 20px 0;
     img {
-        height: 300px;
+        height: 400px;
     }
 }
 
@@ -123,6 +126,45 @@
 .modal-leave-active .modal-container {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+@media only screen and (max-width: 872px) {
+    .modal-container {
+        max-width: 600px;
+        max-height: 90vh;
+    }
+
+    .modal-body {
+        img {
+            height: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 672px) {
+    .modal-container {
+        max-width: 500px;
+        max-height: 90vh;
+    }
+
+    .modal-body {
+        img {
+            height: 300px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 672px) {
+    .modal-container {
+        max-width: 480px;
+        max-height: 90vh;
+    }
+
+    .modal-body {
+        img {
+            height: 200px;
+        }
+    }
 }
 
 @media only screen and (max-width: 490px ) {

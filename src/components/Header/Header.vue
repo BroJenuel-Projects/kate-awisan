@@ -3,23 +3,13 @@
         <div class="open-nav-button" :class="{show:!showMobileNav}" @click="showMobileNav = !showMobileNav">
             <i class='bx bx-menu-alt-right' ></i>
         </div>
-        <div class="nav-title">
-            <div @click="showMobileNav = !showMobileNav">
-                <router-link to="/" ><i class='bx bxs-user-detail'></i></router-link>
-            </div>
-            <div class="close-nav-button" @click="showMobileNav = !showMobileNav">
-                <i class='bx bx-x'></i>
-            </div>
-        </div>
         <div class="nav-menu">
             <ul>
                 <li @click="showMobileNav = !showMobileNav">
-                    <router-link to="/"><i class='bx bx-user' ></i> About Me</router-link>
-                    
+                    <router-link to="/"><i class='bx bx-home' ></i> Home</router-link>
                 </li>
                 <li @click="showMobileNav = !showMobileNav">
-                    <router-link to="experience"><i class='bx bx-brain' ></i> Experience</router-link>
-                    
+                    <router-link to="/aboutme"><i class='bx bx-user' ></i> About Me</router-link>
                 </li>
                 <li @click="showMobileNav = !showMobileNav">
                     <router-link to="portfolio"><i class='bx bx-file' ></i> Portfolio</router-link>

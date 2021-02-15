@@ -11,7 +11,6 @@
             </div>
         </section>
         <form @submit="sendEmail">
-            <label>Name</label>
             <input
                 type="text"
                 v-model="name"
@@ -20,7 +19,6 @@
                 autocomplete="off"
                 required
             />
-            <label>Email</label>
             <input
                 type="email"
                 v-model="email"
@@ -29,12 +27,10 @@
                 autocomplete="off"
                 required
             />
-            <label>Message</label>
             <textarea
                 name="message"
                 v-model="message"
-                cols="30"
-                rows="5"
+                rows="8"
                 placeholder="Enter Your Message"
                 autocomplete="off"
                 required
@@ -92,6 +88,7 @@ form {
     flex-direction: column;
     gap: 10px;
     max-width: 450px;
+    width: 100vw;
 }
 
 input,
@@ -100,6 +97,7 @@ textarea {
     border-radius: 10px;
     border: 1px solid #aaa;
     outline: none;
+    margin: 0 10px;
 }
 
 input[type="Submit"] {
