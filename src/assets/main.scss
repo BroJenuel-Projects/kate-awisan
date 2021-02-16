@@ -57,3 +57,56 @@ body {
 .header-des {
     font-size: 0.9rem;
 }
+
+.item-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .item-box {
+        width: 420px;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 5px;
+
+        .item-image {
+            display: flex;
+            align-items: center;
+            width: 420px;
+            height: 320px;
+            overflow: hidden;
+            border: 0px solid var(--highlight);
+            border-radius: 5px;
+            opacity: 0.8;
+
+            img {
+                height: 320px;
+            }
+        }
+
+        .item-details {
+            font-weight: bold;
+            font-size: 0.9rem;
+            color: var(--highlight);
+            opacity: 0.8;
+        }
+
+        &:hover {
+            .item-image {
+                opacity: 1;
+            }
+            .item-details {
+                opacity: 1;
+                p {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.center0img {
+    display: flex !important;
+    justify-content: center;
+}

@@ -16,8 +16,8 @@ const routes = [
         component: () => import('./../components/AboutMe')
     },
     {
-        path: '/portfolio',
-        name: 'Portfolio',
+        path: '/works',
+        name: 'Works',
         component: () => import('./../components/Portfolio')
     },
     {

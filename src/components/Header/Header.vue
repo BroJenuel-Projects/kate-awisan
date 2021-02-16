@@ -12,7 +12,7 @@
                     <router-link to="/aboutme"><i class='bx bx-user' ></i> About Me</router-link>
                 </li>
                 <li @click="showMobileNav = !showMobileNav">
-                    <router-link to="portfolio"><i class='bx bx-file' ></i> Portfolio</router-link>
+                    <router-link to="/works"><i class='bx bx-file' ></i> Works</router-link>
                 </li>
                 <li @click="showMobileNav = !showMobileNav">
                     <router-link to="contact"><i class='bx bx-phone-call' ></i> Contact Me</router-link>
