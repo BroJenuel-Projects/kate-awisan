@@ -24,7 +24,7 @@ export default {
 <style lang="scss">
   main {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1400px;
     min-height: 80vh;
     padding: 0 20px;
     padding-top: 80px;

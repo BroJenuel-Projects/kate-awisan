@@ -6,14 +6,15 @@
         <div class="nav-menu">
             <ul>
                 <li @click="showMobileNav = !showMobileNav">
-                    <router-link to="/"><i class='bx bx-home' ></i> Home</router-link>
+                    <router-link to="/works"><i class='bx bx-file' ></i> Portfolio</router-link>
                 </li>
+                <!-- <li @click="showMobileNav = !showMobileNav">
+                    <router-link to="/"><i class='bx bx-home' ></i> Home</router-link>
+                </li> -->
                 <li @click="showMobileNav = !showMobileNav">
                     <router-link to="/aboutme"><i class='bx bx-user' ></i> About Me</router-link>
                 </li>
-                <li @click="showMobileNav = !showMobileNav">
-                    <router-link to="/works"><i class='bx bx-file' ></i> Works</router-link>
-                </li>
+                
                 <li @click="showMobileNav = !showMobileNav">
                     <router-link to="contact"><i class='bx bx-phone-call' ></i> Contact Me</router-link>
                 </li>
