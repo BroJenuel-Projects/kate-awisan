@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aba92ea192e2a3799c1a",
-    "url": "/css/app.2fef218b.css"
+    "revision": "2c98c19ba487c39e4982",
+    "url": "/css/app.1e0bf797.css"
   },
   {
-    "revision": "91c77275144488774539",
-    "url": "/css/chunk-483424bc.6176c47e.css"
+    "revision": "08ab787da64819b015a3",
+    "url": "/css/chunk-51405bcc.6176c47e.css"
   },
   {
     "revision": "80308870f4473dfc415f",
@@ -48,16 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/SITEL.b2a7703d.png"
   },
   {
-    "revision": "1ef5fe5b54d41f5a9286c53b30ce65cf",
-    "url": "/img/banner.1ef5fe5b.png"
-  },
-  {
     "revision": "ef936b26254e72db9f42fbc6baaea010",
     "url": "/img/companylisting.ef936b26.png"
-  },
-  {
-    "revision": "bc46a47e571dffde67c0588f666fb3d5",
-    "url": "/img/ds.bc46a47e.jpg"
   },
   {
     "revision": "10a858d62efdc3c66908f1b31d1f8527",
@@ -68,20 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/shopify_LLC.23bed9ce.png"
   },
   {
-    "revision": "3cd9bd31bab2c3253146bf594c0fd49c",
-    "url": "/img/tr.3cd9bd31.jpg"
-  },
-  {
-    "revision": "fcb93261d591e1567b78a83d37ebee25",
+    "revision": "acbb4c245d359cea95ef0e3d72eae659",
     "url": "/index.html"
   },
   {
-    "revision": "aba92ea192e2a3799c1a",
-    "url": "/js/app.61145761.js"
+    "revision": "2c98c19ba487c39e4982",
+    "url": "/js/app.b3c25fca.js"
   },
   {
-    "revision": "91c77275144488774539",
-    "url": "/js/chunk-483424bc.04c6db28.js"
+    "revision": "08ab787da64819b015a3",
+    "url": "/js/chunk-51405bcc.c6f3e48f.js"
   },
   {
     "revision": "80308870f4473dfc415f",
